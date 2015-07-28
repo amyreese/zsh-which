@@ -1,16 +1,8 @@
-# ------------------------------------------------------------------------------
-# Description
-# -----------
+# Copyright 2015 John Reese
+# Licensed under the MIT license
 #
-# which will be inserted before the command
-#
-# ------------------------------------------------------------------------------
-# Authors
-# -------
-#
-# * John Reese <john@noswap.com>
-#
-# ------------------------------------------------------------------------------
+# Binds [esc] w to run `which` on the command currently in the buffer,
+# similar to the default [esc] h for run-help.
 
 which-command-line() {
     PUSHLINE="yes"
